@@ -1,0 +1,49 @@
+name: utd_store_idan_mulhakim_20123037
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🔥 STATE MANAGEMENT (BLoC)
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # 🔥 DEPENDENCY INJECTION
+  get_it: ^7.6.0
+
+  # 🔥 NETWORKING
+  dio: ^5.4.0
+
+  # 🔥 ROUTING
+  go_router: ^14.2.0
+
+  # 🔥 LOCAL DATABASE (HIVE)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # 🔥 FORMAT DATE
+  intl: ^0.19.0
+
+  # 🔥 REAL-TIME BITCOIN
+  web_socket_channel: ^3.0.1
+
+  # 📊 CHART (FIX ERROR KAMU)
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
